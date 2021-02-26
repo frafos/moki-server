@@ -6,9 +6,9 @@ const pretty = require('express-prettify');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const { nodeEnv } = require('./config');
-const routes = require('../routes/index.js');
-const middlewares = require('../controller/middlewares');
+const { nodeEnv } = require('../../../../src/modules/config');
+const routes = require('../../../../src/routes/index.js');
+const middlewares = require('../../../../src/controller/middlewares');
 
 const app = express(); 
 app.use(cors());

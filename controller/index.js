@@ -1,26 +1,26 @@
 // index.js hold the controller boilerplate
 
-const AdminController = require('./admin');
-const CallsController = require('./calls');
-const ConferenceController = require('./conference');
-const ConnectivityCAController = require('./connectivityCA');
-const ConnectivityController = require('./connectivity');
-const DiagramController = require('./diagram');
-const DiagnosticsController = require('./diagnostics');
-const ExceededController = require('./exceeded');
-const HomeController = require('./home');
-const MonitoringController = require('./monitoring');
-const MicroanalysisController = require('./microanalysis');
-const NetworkController = require('./network');
-const OverviewController = require('./overview');
-const QoSController = require('./qos');
-const RealmController = require('./realm');
-const RegistrationController = require('./registration');
-const RestrictedController = require('./restricted');
-const SettingController = require('./setting');
-const SecurityController = require('./security');
-const SystemController = require('./system');
-const TransportController = require('./transport');
+const AdminController = require('../../../../src/controller/admin');
+const CallsController = require('../../../../src/controller/calls');
+const ConferenceController = require('../../../../src/controller/conference');
+const ConnectivityCAController = require('../../../../src/controller/connectivityCA');
+const ConnectivityController = require('../../../../src/controller/connectivity');
+const DiagramController = require('../../../../src/controller/diagram');
+const DiagnosticsController = require('../../../../src/controller/diagnostics');
+const ExceededController = require('../../../../src/controller/exceeded');
+const HomeController = require('../../../../src/controller/home');
+const MonitoringController = require('../../../../src/controller/monitoring');
+const MicroanalysisController = require('../../../../src/controller/microanalysis');
+const NetworkController = require('../../../../src/controller/network');
+const OverviewController = require('../../../../src/controller/overview');
+const QoSController = require('../../../../src/controller/qos');
+const RealmController = require('../../../../src/controller/realm');
+const RegistrationController = require('../../../../src/controller/registration');
+const RestrictedController = require('../../../../src/controller/restricted');
+const SettingController = require('../../../../src/controller/setting');
+const SecurityController = require('../../../../src/controller/security');
+const SystemController = require('../../../../src/controller/system');
+const TransportController = require('../../../../src/controller/transport');
 
 // controller boilerplate code
 
@@ -58,5 +58,6 @@ module.exports = {
     SettingController,
     SecurityController,
     SystemController,
-    TransportController
+    TransportController,
+
 };
