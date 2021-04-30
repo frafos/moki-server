@@ -18,5 +18,6 @@ export { AdminController,
     SettingController,
     SecurityController,
     SystemController,
-    TransportController } from './controller/index.js';
+    TransportController,
+     } from './controller/index.js';
 export { app } from './modules/express.js';
