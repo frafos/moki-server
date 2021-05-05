@@ -1,4 +1,4 @@
-// index.js hold the controller boilerplate
+// iexport all of controllers
 
 const AdminController = require('./admin');
 const CallsController = require('./calls');
