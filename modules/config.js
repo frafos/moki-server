@@ -10,6 +10,7 @@ const c = {
     fileDefaults: '/etc/abc-monitor/defaults.json',
     fileMonitor: '/data/abc-monitor/monitor.json',
     fileGUILayout: '/data/abc-monitor/monitor-layout.json',
+    htpasswd: '/data/abc-monitor/htpasswd',
     rootDir: appDir,
     es: process.env.ES || 'localhost:9200',
   };
