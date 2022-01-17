@@ -1,6 +1,7 @@
 const path = require('path');
 const appDir = path.dirname(require.main.filename);
 const dotenv = require('dotenv');
+dotenv.config();
 
 const c = {
     port: process.env.PORT || 5000,
@@ -16,5 +17,5 @@ const c = {
     es: process.env.ES || 'localhost:9200',
   };
 
-  dotenv.config();
+
   module.exports = c;
