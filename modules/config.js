@@ -15,6 +15,7 @@ const c = {
     htpasswd: '/data/abc-monitor/htpasswd',
     rootDir: appDir,
     es: process.env.ES || 'localhost:9200',
+    debug: process.env.MOKI_DEBUG || false
   };
 
 
