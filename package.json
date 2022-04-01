@@ -1,6 +1,6 @@
 {
     "name": "@moki-server/server",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Server part for Moki",
     "main": "index.js",
     "scripts": {
