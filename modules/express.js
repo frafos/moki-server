@@ -7,6 +7,7 @@ const cors = require('cors');
 const { nodeEnv } = require('../../../../src/modules/config');
 const routes = require('../../../../src/routes/index.js');
 const middlewares = require('../../../../src/controller/middlewares');
+const PUBLIC_URL = process.env.PUBLIC_URL || "";
 
 const app = express(); 
 app.use(cors());
@@ -18,7 +19,7 @@ app.use(pretty({ query: 'pretty' }));
 app.use('/static', express.static(path.join(process.cwd(), 'report')));
 
 //set routes paths (different with modules)
-app.use('/api', routes());
+app.use(PUBLIC_URL+"/api", routes());
 
 // load error mdlw at the end
 app.use(middlewares.notFound());
