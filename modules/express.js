@@ -10,7 +10,7 @@ const middlewares = require('../../../../src/controller/middlewares');
 const PUBLIC_URL = process.env.PUBLIC_URL || "";
 
 const app = express(); 
-app.use(cors());
+//app.use(cors());   “Access-Control -Allow-Origin” header would be set to *
 if (nodeEnv !== 'test') app.use(logger('dev'));
 app.use(bodyParser.json()); // -> app.use(express.json()); ?
 app.use(pretty({ query: 'pretty' }));
